@@ -20,10 +20,10 @@ def add_member(name, age, power, money):
     new = {
         "name" : name,
         "age" : age,
+        "role" : role,
         "power" : power,
         "money" : money,
-        "role" : role,
-        "equipment" : "",
+        "equipment" : "ไม่มี",
     }
     family_members.append(new)
     return new
